@@ -1,7 +1,6 @@
 package DB;
 
 import Entity.Bet;
-
 import java.util.ArrayList;
 import java.util.List;
 
