@@ -18,6 +18,5 @@ public class Main {
         ConsoleHandler.handle();
         BetDao betDao = new BetDaoImpl();
         System.out.println(betDao.getAll());
-
     }
 }
