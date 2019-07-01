@@ -4,7 +4,6 @@ import DAO.BetDao;
 import Entity.Bet;
 import Services.UserService;
 import lib.Inject;
-
 import java.util.Scanner;
 
 public class ConsoleHandler {
