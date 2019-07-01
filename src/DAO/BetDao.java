@@ -9,6 +9,4 @@ public interface BetDao {
 
     void add(Bet bet);
     List<Bet> getAll();
-
-
 }

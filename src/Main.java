@@ -8,22 +8,14 @@ public class Main {
     static {
         try {
             Injector.injectDependency();
-        } catch (IllegalAccessException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public static void main(String[] args) throws Exception {
-
+    public static void main(String[] args) {
         ConsoleHandler.handle();
         BetDao betDao = new BetDaoImpl();
         System.out.println(betDao.getAll());
-
     }
-
-
 }
-
-
-
-
